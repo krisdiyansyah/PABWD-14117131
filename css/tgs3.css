@@ -1,0 +1,80 @@
+.wrap{
+	background: black;
+	width: 900px;
+	margin: 10px auto;
+	border: 1px solid #FFFFFF;
+}
+ 
+.wrap .header{
+	background-image: url(gbr.jpg);
+	color: #FFFFFF;
+	padding: 2px 10px;
+}
+
+.wrap .menu{
+	background: gold;
+}
+ 
+.wrap .menu ul{
+	padding: 0;
+	margin: 0;
+	background: gold;
+	overflow: hidden;
+}
+ 
+.wrap .menu ul li{
+	float: left;
+	list-style-type: none;
+	padding: 10px;
+}
+ 
+.wrap .menu ul li a {
+	list-style: none;
+	padding: 10px;
+	text-decoration: none;
+}
+
+.clear{
+	clear: both;
+}
+ 
+.badan{
+	height: 450px;
+}
+
+.wrap .badan .sidebar{
+	background: #CCFF00;
+	float: left;	
+	width: 25%;
+	height: 100%;
+}
+
+.wrap .badan .sidebar ul li a {
+	list-style: none;
+	padding-top: 10px;
+	text-decoration: none;
+}
+
+.wrap .badan .content{
+	background: white;
+	float: left;
+	height: 100%;
+	width: 75%;	
+}
+ 
+.wrap .footer{
+	width: 100%;
+	padding: 5px;
+	text-align: center;
+	color: white;
+}
+
+.wrap .menu ul li a:hover {
+	background-color: #FFFFFF;
+	padding: 10px;
+}
+
+.wrap .badan .sidebar ul li a:hover {
+	background-color: #FFFFFF;
+	padding: 0;
+}
