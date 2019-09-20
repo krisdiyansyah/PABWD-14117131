@@ -1,0 +1,9 @@
+Jawaban dari soal di modul 1:
+1. Terdapat kesalahan apabila salah menuliskan tag-tag HTML 
+2. Ketika mengubah meta refresh terdapat perbedaan, yaitu ketika kita menjalankan/ membuka program di web browser secara otomatis web akan berubah menuju http://google.co.id
+3. Fungsi tag HTML pada Table: thead, tbody, tr, th, td:
+	- thead: digunakan untuk mengelompokkan konten yang terletak di bagian atas (kepala) dari sebuah tabel.
+	- tbody: menunjukkan isi tabel
+	- tr   : menunjukkan baris sebuah tabel (table-row)
+	- th   : digunakan untuk membuat judul dasi tabel seperti no, nama, dll (table-heading)
+	- td   : digunakan untuk membuat isi dari th atau baris (table-data)
