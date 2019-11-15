@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>FORM MAHASISWA</title>
+</head>
+<body>
+<h2>TAMBAH DATA MAHASISWA</h2>
+<form action="add.php" method="POST">
+	<table>
+		<tr>
+			<td>NRP : </td>
+			<td><input type="text" name="nrp"></td>
+		</tr>
+		<tr>
+			<td>NAMA : </td>
+			<td><input type="text" name="nama"></td>
+		</tr>
+		<tr>
+			<td>ALAMAT : </td>
+			<td><input type="text" name="alamat"></td>
+		</tr>
+		<tr>
+			<td>JURUSAN : </td>
+			<td>
+				<select name="jurusan">
+					<option value="IF">Teknik Informatika</option>
+					<option value="EL">Teknik Elektro</option>
+					<option value="SI">Teknik Sipil</option>
+					<option value="ME">Teknik Mesin</option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td><button type="" name="simpan">SIMPAN</button></td>
+		</tr>
+	</table>
+</form>	
+	<br> <br>
+	====================================
+<h2>SEARCH DATA MAHASISWA</h2>
+<form action="search.php" method="POST">
+	<table>
+		<tr>
+			<td>NAMA : </td>
+			<td><input type="text" name="snama"></td>
+			<td><button name="search">Cari Data</button></td>
+		</tr>
+	</table>
+</form>	
+	<br> <br>	
+	====================================
+	<h2>HAPUS DATA MAHASISWA</h2>
+<form action="delete.php" method="POST">
+	<table>
+		<tr>
+			<td>NAMA : </td>
+			<td><input type="text" name="dnama"></td>
+			<td><button name="delete">Hapus Data</button></td>
+		</tr>
+	</table>
+</form>
+</body>
+</html>
